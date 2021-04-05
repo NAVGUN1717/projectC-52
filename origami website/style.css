@@ -1,0 +1,41 @@
+h1{
+    color:#333533 ;
+    text-align: center;
+    background: #cfdbd5;
+}
+.grid{
+    display: flex;
+    text-align: space-evenly; 
+    flex-wrap: wrap;
+}
+.item{
+    background: #333533;
+    padding: 20px;
+
+}
+img{
+    border-radius: 15px;
+}
+*{
+    background: #cfdbd5;
+}
+p{
+    background: #333533;
+    color: white;
+}
+ol{
+    background: #333533;
+    color: white;
+}
+a:link p{
+    color: #cfdbd5;
+}
+a:visited p{
+    color:aqua
+}
+a[
+    text-decoration: none
+]
+.item:hover{
+    transform:scale: 1.5;
+}
